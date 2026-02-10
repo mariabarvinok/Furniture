@@ -1,0 +1,73 @@
+<div class="modal-order">
+  <div class="container">
+    <div class="modal-close-btn-wrap">
+      <button
+        type="button"
+        class="modal-close-btn close-order"
+        aria-label="закрити вікно замовлення"
+      >
+        <svg class="modal-close-icon" width="16" height="16">
+          <use href="./img/sprite.svg#icon-x"></use>
+        </svg>
+      </button>
+    </div>
+
+    <h2 class="modal-order-title">Замовити зворотний зв'язок</h2>
+
+    <form class="modal-order-form" novalidate>
+      <div class="modal-input-field">
+        <label for="email" class="modal-label">
+          <span class="modal-label-text">E-mail*</span>
+
+          <input
+            type="text"
+            name="email"
+            id="email"
+            class="modal-input"
+            placeholder="Ваш e-mail"
+            autocomplete="email"
+            required
+          />
+          <span class="text-valid">Дані введено вірно</span>
+          <span class="text-invalid">Некоректний e-mail, спробуйте знову</span>
+        </label>
+      </div>
+
+      <div class="modal-input-field">
+        <label for="phone" class="modal-label">
+          <span class="modal-label-text">Телефон*</span>
+          <input
+            name="phone"
+            id="phone"
+            type="tel"
+            class="modal-input"
+            placeholder="380ХХХХХХХХХ"
+            required
+          />
+          <span class="text-valid">Дані введено вірно</span>
+          <span class="text-invalid">Некоректний номер, спробуйте знову</span>
+        </label>
+      </div>
+
+      <div class="modal-textarea-field">
+        <label for="comment" class="modal-textarea-label modal-label">
+          <span class="modal-label-text">Коментар*</span>
+          <textarea
+            name="comment"
+            id="comment"
+            class="modal-textarea"
+            placeholder="Введіть ваше повідомлення..."
+          ></textarea>
+          <span class="text-valid">Дані введено вірно</span>
+          <span class="text-invalid">Має бути мінімум 5 символів</span>
+        </label>
+      </div>
+
+      <button type="submit" class="modal-submit-btn">Надіслати заявку</button>
+    </form>
+  </div>
+</div>
+
+<div class="modal-order-successful">
+  <div class="container"></div>
+</div>
