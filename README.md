@@ -1,22 +1,5 @@
 # 🛋️ Меблерія
 
-**"Меблерія"** — спільний проєкт команди **CodeUA**, студентів GoIT, групи
-**FSON 118**.
-
----
-
-## 🧑‍💻 Команда
-
-- **Oleksandr Mykhailenko** — Team Lead
-- **Vita Koval** — Scrum Master
-- **Oleh Butenko** — Web Developer
-- **Oleg Pancheshnyi** — Web Developer
-- **Andrii Kovalenko** — Web Developer
-- **Lyubov Yurynets** — Web Developer
-- **Andrii Kulakov** — Web Developer
-
----
-
 ## 💡 Головна ідея
 
 Перетворити вибір меблів на приємну та натхненну подорож.  
